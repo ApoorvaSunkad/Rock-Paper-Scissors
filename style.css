@@ -69,3 +69,25 @@ img{
     font-family: "Rubik", sans-serif;
     font-style: normal;
 }
+
+/* Media Query */
+@media only screen and (max-width:600px){
+    h1{
+        font-size: 2rem;
+    }
+    .choices{
+        display: flex;
+        flex-direction: column;
+    }
+    .score-board{
+        font-size: 1.5rem;
+    }
+    #user-score, #comp-score{
+        font-size: 2rem;
+        font-family: "Rubik", sans-serif;
+        font-style: normal;
+    }
+    #msg{
+        font-size: 1.2rem;
+    }
+}
