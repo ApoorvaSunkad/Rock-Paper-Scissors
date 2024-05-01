@@ -90,4 +90,7 @@ img{
     #msg{
         font-size: 1.2rem;
     }
+    .msg-container{
+        margin-bottom: 5%;
+    }
 }
